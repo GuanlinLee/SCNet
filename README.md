@@ -1,4 +1,4 @@
-# SCNet: Neural networks for side channel attacks
+# SCNet: Neural networks for side channel attacks [[pdf]](https://arxiv.org)
 
 
 # Authors:
