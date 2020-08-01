@@ -1,7 +1,7 @@
-﻿#SCNet: Neural networks for side channel attacks
- 
+# SCNet: Neural networks for side channel attacks
 
-#Authors:
+
+# Authors:
 >Guanlin Li (leegl@sdas.org)
 >
 >Chang Liu (chang015@e.ntu.edu.sg)
@@ -14,12 +14,13 @@
 >
 >Meiqin Wang (mqwang@sdu.edu.cn)
 
-#Datasets:
+# Datasets:
 
-###ASCAD dataset:
+
+### ASCAD dataset:
 >https://github.com/ANSSI-FR/ASCAD
 >
-###DPA_v4.2 dataset:
+### DPA_v4.2 dataset:
 >[DPA Tools](http://www.dpacontest.org/tools/tools.php)
 >
 >[DPA_v4.2 full version dataset](http://www.dpacontest.org/v4/42_traces.php)
@@ -68,17 +69,17 @@ python data_gen.py
 is handy for ML researchers to use. 
 
 
-#Models:
+# Models:
 
 >We provide trained models on four datasets, three of them from ASCAD and one from DPA_v4.2, respectively.
 Our experiment environment is [tensorflow-gpu](https://www.tensorflow.org/)==1.8.0, [keras](https://keras.io/)==2.2.2, [CUDA 9.1.85](https://developer.nvidia.com/cuda-toolkit), [cuDNN 7.0](https://developer.nvidia.com/cudnn). We strongly recommend using
 [Anaconda3](https://www.anaconda.com/) to install them. 
 
-######With pip to install (you need to install CUDA and cuDNN by yourself):
+###### With pip to install (you need to install CUDA and cuDNN by yourself):
 ```
 pip install tensorflow-gpu keras matplotlib
 ``` 
-######With conda to install:
+###### With conda to install:
 ```
 conda install tensorflow-gpu==1.8.0
 conda install keras
@@ -122,22 +123,22 @@ python DPA_test_models_v1.py
 python DPA_test_models_v2.py
 ``` 
 
-###SCNet_seq structure:
+### SCNet_seq structure:
 
 ![an image](image1.png "SCNet_seq structure") 
 
-###SCNet structure:
+### SCNet structure:
 ![an image](image2.png "SCNet structure") 
 
-#Results:
+# Results:
 
-######Result on ASCAD.h5:
+###### Result on ASCAD.h5:
 ![an image](0.png "Result on ASCAD.h5") 
-######Result on ASCAD_desync50.h5:
+###### Result on ASCAD_desync50.h5:
 ![an image](50.png "Result on ASCAD_desync50.h5") 
-######Result on ASCAD_desync100.h5:
+###### Result on ASCAD_desync100.h5:
 ![an image](100.png "Result on ASCAD_desync100.h5") 
-######Result on DPA.h5:
+###### Result on DPA.h5:
 ![an image](dpa.png "Result on DPA.h5") 
 
 
@@ -149,7 +150,7 @@ python DPA_test_models_v2.py
 
 
 
-#Notice:
+# Notice:
 >We test our code on both Windows 7 and Ubuntu 16.04.
 >
 >SCNet_v1 &rarr; SCNet_seq
@@ -157,17 +158,17 @@ python DPA_test_models_v2.py
 >SCNet_v2 &rarr; SCNet
 
 
-#Cite:
+# Cite:
 >If you use this code, please cite our paper:
  
 ```
-None
+
 ```
 >This code is for protyping research ideas; thus, please use this code only for non-commercial purpose only.  
 
 
 
-#Credits:
+# Credits:
 >The part of the base codes are borrowed from 
 [ANSSI-FR/ASCAD](https://github.com/ANSSI-FR/ASCAD).
 Thanks for their standardizing implementation of training and test scripts and datasets.
