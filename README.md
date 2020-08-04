@@ -1,4 +1,4 @@
-# SCNet: Neural networks for side channel attacks [[pdf]](https://arxiv.org)
+# SCNet: Neural networks for side channel attacks [[pdf]](https://arxiv.org/abs/2008.00476)
 
 
 # Authors:
@@ -164,7 +164,22 @@ python DPA_test_models_v2.py
 >If you use this code, please cite our paper:
  
 ```
-
+@ARTICLE{2020arXiv200800476L,
+       author = {{Li}, Guanlin and {Liu}, Chang and {Yu}, Han and {Fan}, Yanhong and
+         {Zhang}, Libang and {Wang}, Zongyue and {Wang}, Meiqin},
+        title = "{SCNet: A Neural Network for Automated Side-Channel Attack}",
+      journal = {arXiv e-prints},
+     keywords = {Computer Science - Cryptography and Security, Computer Science - Machine Learning},
+         year = 2020,
+        month = aug,
+          eid = {arXiv:2008.00476},
+        pages = {arXiv:2008.00476},
+archivePrefix = {arXiv},
+       eprint = {2008.00476},
+ primaryClass = {cs.CR},
+       adsurl = {https://ui.adsabs.harvard.edu/abs/2020arXiv200800476L},
+      adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
 ```
 >This code is for protyping research ideas; thus, please use this code only for non-commercial purpose only.  
 
